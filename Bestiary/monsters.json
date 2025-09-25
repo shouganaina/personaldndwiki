@@ -1,0 +1,19 @@
+[
+    {
+      "name": "Dire Wolf",
+      "category": "Beast",
+      "image": "images/direwolf.png",
+      "description": "A larger, more feral cousin of the common wolf, hunting in vicious packs.",
+      "strengths": "Fast, coordinated attacks, sharp senses.",
+      "weaknesses": "Fire, loud noises scatter the pack."
+    },
+    {
+      "name": "Skeleton Warrior",
+      "category": "Undead",
+      "image": "images/skeleton.png",
+      "description": "An ancient warrior reanimated by necromancy, bound to fight eternally.",
+      "strengths": "Immune to poison, no fatigue.",
+      "weaknesses": "Blunt weapons shatter bones, holy symbols repel them."
+    }
+  ]
+  

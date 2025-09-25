@@ -1,0 +1,25 @@
+.monster-card {
+    background: #fff0c4;
+    border: 1px solid #660b05;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.1rem;
+    width: 75%;
+    text-align: center;
+  }
+  
+  .monster-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  #bestiary {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  
+  

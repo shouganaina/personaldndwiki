@@ -1,6 +1,62 @@
-:root {
-    --color-ember-deep-rgb: 62, 7, 3;
-    --color-ember-mid-rgb: 102, 11, 5;
-    --color-ember-bright-rgb: 140, 16, 7;
-    --color-ash-light-rgb: 255, 240, 196;
-  }
+
+/* ===== Layout ===== */
+main {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 220px;
+  background: var(--color-ember-mid);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--color-ash-light);
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar a {
+  color: var(--color-ash-light);
+  text-decoration: none;
+  display: block;
+  padding: 0.4rem 0;
+}
+
+.sidebar a:hover {
+  color: var(--color-ember-bright);
+}
+
+.content {
+  flex: 1;
+  background: var(--color-sand);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 var(--color-black)
+}
+
+.content h2, .content h3 {
+  color: var(--color-ash-light);
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: var(--color-ember-bright);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: var(--color-ash-light);
+  font-size: 0.9rem;
+}

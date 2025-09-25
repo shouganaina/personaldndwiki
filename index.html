@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lore Archive</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="allstyles.css">
+  <script>
+    // Clean the URL
+    if (window.location.href.includes("index.html")) {
+        const cleanUrl = window.location.href.replace("index.html", "");
+        window.history.replaceState({}, document.title, cleanUrl);
+    }
+  </script>
 </head>
 <body>
-    
+  <!-- HEADER -->
+  <header>
+    <h1>The Lore Archive - Morn</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="World/">World</a>
+      <a href="Characters/">Characters</a>
+      <a href="History/">History</a>
+      <a href="Bestiary/">Bestiary</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <aside class="sidebar">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Geography</a></li>
+        <li><a href="#">Factions</a></li>
+        <li><a href="#">Notable Figures</a></li>
+        <li><a href="#">Timeline</a></li>
+      </ul>
+    </aside>
+
+    <article class="content">
+      <h2>Welcome to the Archive</h2>
+      <p>
+        This is the central repository of knowledge about the world of Morn. 
+        Here you will find histories, myths, and records of all that 
+        has transpired. Use the sidebar to navigate through the archives.
+      </p>
+      <h3>More content will be added accordingly</h3>
+      <p>
+        If you also just want something added just ask. The entire thing is a WIP.
+      </p>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Elias Kennbäck — </p><a href="secretpage/">Roll for initiative 🎲</a>
+  </footer>
 </body>
 </html>
