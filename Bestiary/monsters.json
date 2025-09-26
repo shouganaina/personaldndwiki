@@ -1,19 +1,98 @@
 [
-    {
-      "name": "Dire Wolf",
-      "category": "Beast",
-      "image": "images/direwolf.png",
-      "description": "A larger, more feral cousin of the common wolf, hunting in vicious packs.",
-      "strengths": "Fast, coordinated attacks, sharp senses.",
-      "weaknesses": "Fire, loud noises scatter the pack."
-    },
-    {
-      "name": "Skeleton Warrior",
-      "category": "Undead",
-      "image": "images/skeleton.png",
-      "description": "An ancient warrior reanimated by necromancy, bound to fight eternally.",
-      "strengths": "Immune to poison, no fatigue.",
-      "weaknesses": "Blunt weapons shatter bones, holy symbols repel them."
-    }
-  ]
-  
+  {
+    "name": "Outlaw Leader",
+    "category": "Humanoid",
+    "image": "images/outlaw_leader.png",
+    "description": "Charismatic and cunning, the outlaw leader commands ragged bands who survive beyond the reach of the law.",
+    "strengths": "Inspires nearby outlaws, skilled duelist, battlefield awareness.",
+    "weaknesses": "Pride blinds judgment, overconfident in numbers."
+  },
+  {
+    "name": "Enforcer",
+    "category": "Humanoid",
+    "image": "images/enforcer.png",
+    "description": "A brute who relies on raw strength and intimidation to crush foes into submission.",
+    "strengths": "High physical power, grappling, brutal melee attacks.",
+    "weaknesses": "Slow, predictable, vulnerable to magic."
+  },
+  {
+    "name": "Outlaw Trapper",
+    "category": "Humanoid",
+    "image": "images/trapper.png",
+    "description": "Patient and cruel, the trapper sets ambushes with nets, snares, and concealed hazards.",
+    "strengths": "Disables enemies with nets and tripwires, area control.",
+    "weaknesses": "Poor in open combat, relies heavily on preparation."
+  },
+  {
+    "name": "Outlaw Illusionist",
+    "category": "Humanoid Caster",
+    "image": "images/illusionist.png",
+    "description": "A rogue mage who bends light and thought to deceive and distract, often for coin or survival.",
+    "strengths": "Illusions for concealment, crowd confusion, versatile spellcasting.",
+    "weaknesses": "Fragile in melee, illusions collapse under scrutiny."
+  },
+  {
+    "name": "Outlaw Healer",
+    "category": "Humanoid Caster",
+    "image": "images/healer.png",
+    "description": "A survivalist cleric tending wounds in exchange for loyalty, coin, or protection.",
+    "strengths": "Healing magic, support spells, bolsters allies’ resolve.",
+    "weaknesses": "Defenseless when isolated, limited offensive ability."
+  },
+  {
+    "name": "Fesk the Grimekeeper",
+    "category": "Humanoid NPC",
+    "image": "images/fesk.png",
+    "description": "A sewer-dweller who trades scavenged trinkets and local secrets for food or stories.",
+    "strengths": "Knows every tunnel, skilled at surviving underground.",
+    "weaknesses": "Physically frail, motivated by greed and paranoia."
+  },
+  {
+    "name": "Iron Golem Sentinel",
+    "category": "Construct",
+    "image": "images/iron_golem.png",
+    "description": "A massive war machine left dormant in the sewers, designed to annihilate intruders.",
+    "strengths": "Nigh-invulnerable armor, poison breath, immense strength.",
+    "weaknesses": "Sluggish, vulnerable to lightning or control magic."
+  },
+  {
+    "name": "Gelatinous Cube",
+    "category": "Ooze",
+    "image": "images/gelatinous_cube.png",
+    "description": "A translucent cube of acidic slime that silently engulfs everything in its path.",
+    "strengths": "Paralyzing engulf, dissolves weapons and flesh.",
+    "weaknesses": "Slow, obvious once spotted, weak to fire and cold."
+  },
+  {
+    "name": "Sewer Mimic",
+    "category": "Aberration",
+    "image": "images/sewer_mimic.png",
+    "description": "A shape-shifting predator lurking as pipes, doors, or debris, striking when least expected.",
+    "strengths": "Perfect camouflage, surprise grapples, adhesive form.",
+    "weaknesses": "Fire disrupts disguise, cannot pursue far."
+  },
+  {
+    "name": "Illythid Stalker",
+    "category": "Extraplanar Beast",
+    "image": "images/velashras_hunter.png",
+    "description": "A towering, bat-like predator from another plane. It uses a grotesque forehead organ to channel destructive sound magic.",
+    "strengths": "Sonic roars, echolocation blinds foes, highly intelligent tactics.",
+    "weaknesses": "Vulnerable if its sonar organ is damaged, overextends when hunting prey."
+  },
+  {
+    "name": "Silver Knight",
+    "category": "Construct",
+    "image": "images/arcane_sentinel.png",
+    "description": "A spider-like animated armor, twisted by forgotten wards to patrol abandoned tunnels.",
+    "strengths": "Fast climbing, arcane-infused strikes, relentless pursuit.",
+    "weaknesses": "Outdated programming, can be tricked or overloaded."
+  },
+  {
+    "name": "Velashra",
+    "category": "Humanoid Boss",
+    "image": "images/velashra.png",
+    "description": "Cunning mastermind of the Black Fangs, Velashra wields brutal magic and ruthless strategy to crush opposition.",
+    "strengths": "Terrifying spellcaster, manipulative, commands monstrous minions.",
+    "weaknesses": "Arrogance blinds her, relies on pawns to weaken enemies first."
+  }
+]
